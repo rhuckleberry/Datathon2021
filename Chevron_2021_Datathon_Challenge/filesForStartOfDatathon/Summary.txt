@@ -1,0 +1,16 @@
+We focussed first on exploring the data to find any interesting patterns. 
+We visualized the data by plotting and looked at statistics with Pandas 
+statistics functions. Data selection including dropping many features that 
+did not seem useful such as state since all of the data was in the state of 
+Texas. Feature generation was another important part of our preprocessing 
+stage. We create columns such as the day of the week and the season. 
+For modeling, we used a number of different models including naive bayes, 
+random forests, linear regression, and densely connected neural networks. 
+The best model was by far the random forest model which we believe worked 
+well with the categorical nature of the data. After tuning the model we also
+ conducted a feature importance analysis to determine the most important 
+features. In the end we used a 7030 train-test split which where the 30 percent
+ was basically our validation set. The testing set in this case would be the 
+scoring data provided by Chevron. On our validation score we had a 9.67 on our 
+validation RMSE score. However, after running scoring we received a surprisingly 
+better 3.87 RMSE score.
